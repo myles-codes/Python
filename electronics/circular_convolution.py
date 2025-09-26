@@ -12,11 +12,9 @@ summation of a continuous Fourier transform function.
 Source: https://en.wikipedia.org/wiki/Circular_convolution
 """
 
+import numpy as np
 import doctest
 from collections import deque
-
-import numpy as np
-
 
 class CircularConvolution:
     """
