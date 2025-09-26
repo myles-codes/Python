@@ -16,6 +16,8 @@ import numpy as np
 import doctest
 from collections import deque
 
+
+
 class CircularConvolution:
     """
     This class stores the first and second signal and performs the circular convolution
@@ -28,6 +30,7 @@ class CircularConvolution:
 
         self.first_signal = [2, 1, 2, -1]
         self.second_signal = [1, 2, 3, 4]
+        self.third_signal = [2, 4, 5, 6]
 
     def circular_convolution(self) -> list[float]:
         """
