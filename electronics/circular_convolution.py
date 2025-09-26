@@ -1,5 +1,7 @@
 # https://en.wikipedia.org/wiki/Circular_convolution
 
+
+
 """
 Circular convolution, also known as cyclic convolution,
 is a special case of periodic convolution, which is the convolution of two
